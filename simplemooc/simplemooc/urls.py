@@ -18,6 +18,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    path('', 'simplemooc.core.views.home', name='home')
+    path('', 'simplemooc.views.home', name='home')
     path('admin/', include(admin.site.urls)),
 ]
