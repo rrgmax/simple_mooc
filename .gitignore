@@ -3,4 +3,4 @@
 __pycache__/
 *.pyc
 
-simplemooc/core/static/.DS_Store
+*.DS_Store
