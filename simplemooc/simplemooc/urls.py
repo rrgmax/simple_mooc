@@ -17,7 +17,9 @@ from django.urls import include, path
 from django.contrib import admin
 admin.autodiscover()
 
+from core import views
+
 urlpatterns = [
-    path('', 'simplemooc.views.home', name='home')
-    path('admin/', include(admin.site.urls)),
+    path('', views.home, name='home'),
+    path('admin/', admin.site.urls),
 ]
