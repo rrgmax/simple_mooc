@@ -19,6 +19,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    path('', include('core.urls', namespace='core')),
+    path('', include('core.urls')),
     path('admin/', admin.site.urls),
 ]
