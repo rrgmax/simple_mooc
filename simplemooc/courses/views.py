@@ -9,4 +9,4 @@ def index(request):
     context = {
         'courses': courses
     }
-    return render(request, template_name) 
+    return render(request, template_name, context) 
