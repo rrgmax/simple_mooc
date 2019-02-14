@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 
 *.DS_Store
+simplemooc/db.sqlite3-journal
