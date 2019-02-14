@@ -35,4 +35,5 @@ class Course(models.Model):
 
 class Meta:
     verbose_name = 'Curso'
-    verbose_name_plural = 'Cursos' 
+    verbose_name_plural = 'Cursos'
+    ordering = ['name'] 
